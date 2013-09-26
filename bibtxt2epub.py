@@ -298,7 +298,7 @@ def gen_bibtoc(odir):
 if __name__ == "__main__":
     import os
     import shutil
-    work_dir = 'epub'
+    work_dir = u'epub'
     ofname = u"성경_{0:s}.epub".format(title)
     # (1) convert txt to xhtml 
     bibtxt2xhtml(title+".txt",work_dir)

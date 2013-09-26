@@ -3,9 +3,10 @@
 
 ## 설명
 
-각 절을 HTML Table로 구성
-
-
+- 각 장을 OEBPS/text 밑에 html 파일들로 생성
+- 장 이름을 따로 header로 표시하나 많은 리더에서 동작안함(oeb-page-head 참고)
+- 각 절을 HTML Table로 구성
+- OEBPS/style/style.css 수정하면 책모양 변경
 
 ## 사용법
 
