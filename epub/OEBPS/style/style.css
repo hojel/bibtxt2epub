@@ -1,0 +1,92 @@
+/* book body */
+body {
+    font-size: 1em;
+    margin-bottom: 2pt;
+    margin-left: 2pt;
+    margin-right: 2pt;
+    margin-top: 4pt;
+    page-break-before: always;
+    orphan: 1;
+    }
+p {
+    line-height: 1.3em;
+    text-indent: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+h1.book {
+    display: block;
+    font-size: 150%;
+    margin-bottom: 20pt;
+    }
+h2.chapter {
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 0.5em;
+    }
+img {
+    text-align: center;
+    }
+p.blankpage {
+    line-height: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+div.toc {
+    list-style-type: none;
+    }
+
+table {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	border-collapse:separate;
+	border-spacing:0.25em 0.25em;
+}
+td.versenum {
+	text-align:right;
+	vertical-align:top;
+	color:brown;
+}
+
+/* title page*/
+div.titlepage {
+    display: block;
+    text-align: center;
+    }
+div.booktitle {
+    font-size: larger;
+    padding-top: 15%;
+    }
+div.booksubtitle {
+    font-size: large;
+    padding-top: 5%;
+    }
+div.bookauthor {
+    font-size: medium;
+    padding-top: 10%;
+    }
+div.booksubauthor {
+    font-size: medium;
+    padding-top: 5%;
+    }
+/* cover page*/
+div.coverpage {
+    text-align: center;
+    page-break-after: always;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    }
+/* Header/Footer */
+div.header {
+	display:none;
+	display:oeb-page-head;
+}
+
+div.footer {
+	display:none; 
+	display:oeb-page-foot;
+}
