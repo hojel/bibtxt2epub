@@ -79,8 +79,7 @@
 	<item id="_643jo" href="text/64_3jo.xhtml" media-type="application/xhtml+xml"/>
 	<item id="_65jud" href="text/65_jud.xhtml" media-type="application/xhtml+xml"/>
 	<item id="_66rev" href="text/66_rev.xhtml" media-type="application/xhtml+xml"/>
-        <item id="css1" href="styles/generic.css" media-type="text/css"/>
-        <item id="css2" href="styles/target.css" media-type="text/css"/>
+        <item id="css1" href="styles/style.css" media-type="text/css"/>
 	<item id="page" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
     </manifest>
     <spine toc="ncx">
